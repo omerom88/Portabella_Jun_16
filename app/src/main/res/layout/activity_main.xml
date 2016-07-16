@@ -13,7 +13,7 @@
         android:layout_width="60dp"
         android:contentDescription="@string/string_description"
         android:src="@drawable/stringstrdecayover10"
-        android:id="@+id/imageButton"
+        android:id="@+id/E_LOW"
         android:background="#00917070"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
@@ -28,10 +28,10 @@
         android:contentDescription="@string/string_description"
         android:src="@drawable/stringstrdecayover10"
         android:background="#00ffffff"
-        android:id="@+id/imageButton2"
+        android:id="@+id/A"
         android:layout_alignParentTop="true"
-        android:layout_toRightOf="@+id/imageButton"
-        android:layout_toEndOf="@+id/imageButton" />
+        android:layout_toRightOf="@+id/E_LOW"
+        android:layout_toEndOf="@+id/E_LOW" />
 
     <ImageButton
         android:drawable="@drawable/stringstrdecayover10"
@@ -40,10 +40,10 @@
         android:contentDescription="@string/string_description"
         android:src="@drawable/stringstrdecayover10"
         android:background="#00ffffff"
-        android:id="@+id/imageButton3"
+        android:id="@+id/D"
         android:layout_alignParentTop="true"
-        android:layout_toRightOf="@+id/imageButton2"
-        android:layout_toEndOf="@+id/imageButton2" />
+        android:layout_toRightOf="@+id/A"
+        android:layout_toEndOf="@+id/A" />
 
     <ImageButton
         android:drawable="@drawable/stringstrdecayover10"
@@ -52,10 +52,10 @@
         android:contentDescription="@string/string_description"
         android:src="@drawable/stringstrdecayover10"
         android:background="#00ffffff"
-        android:id="@+id/imageButton4"
+        android:id="@+id/G"
         android:layout_alignParentTop="true"
-        android:layout_toRightOf="@+id/imageButton3"
-        android:layout_toEndOf="@+id/imageButton3" />
+        android:layout_toRightOf="@+id/D"
+        android:layout_toEndOf="@+id/D" />
 
     <ImageButton
         android:drawable="@drawable/stringstrdecayover10"
@@ -64,10 +64,10 @@
         android:contentDescription="@string/string_description"
         android:src="@drawable/stringstrdecayover10"
         android:background="#00ffffff"
-        android:id="@+id/imageButton5"
+        android:id="@+id/B"
         android:layout_alignParentTop="true"
-        android:layout_toRightOf="@+id/imageButton4"
-        android:layout_toEndOf="@+id/imageButton4" />
+        android:layout_toRightOf="@+id/G"
+        android:layout_toEndOf="@+id/G" />
 
     <ImageButton
         android:drawable="@drawable/stringstrdecayover10"
@@ -76,8 +76,15 @@
         android:contentDescription="@string/string_description"
         android:src="@drawable/stringstrdecayover10"
         android:background="#00ffffff"
-        android:id="@+id/imageButton6"
+        android:id="@+id/E_HIGH"
         android:layout_alignParentTop="true"
-        android:layout_toRightOf="@+id/imageButton5"
-        android:layout_toEndOf="@+id/imageButton5" />
+        android:layout_toRightOf="@+id/B"
+        android:layout_toEndOf="@+id/B" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        android:id="@+id/outerScreen"
+        />
 </RelativeLayout>
